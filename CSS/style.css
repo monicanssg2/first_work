@@ -1,0 +1,1320 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bar
+{
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #111;
+    z-index: 1000;
+}
+.nav-bar .container
+{
+    font-size: 16px;
+    font-weight: 400;
+    height: 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo
+{
+    width: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 18px 0px;
+    margin-left: 20px;
+}
+.nav-list
+{
+    width: 50%;
+    padding-right: 300px;
+}
+.nav-list ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-list a
+{
+    
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.9);
+    transition: all 0.5s ease;
+}
+.nav-list a:hover
+{
+    color: #20c997;
+}
+.home
+{
+    background-image: url('../images/intro-bg.jpg');
+    height: 100vh;
+    text-align: center;
+    background-position: center 0px;
+    background-size: cover;
+}
+.home .layer
+{
+    background-color: #111418b0 ;
+    height: 100%;
+}
+.home-content
+{
+    padding-top: 180px;
+    color: white;
+}
+.home p
+{
+    font-weight: 500;
+    font-size: 1.75rem;
+    padding: 30px;
+}
+.home .p2
+{
+    margin-bottom: 20px;
+}
+.home h2
+{
+    font-weight: 600;
+    font-size: 4rem;
+}
+.home h2::before
+{
+    content: "";
+    animation: header 10s infinite;
+}
+@keyframes header {
+    0% {
+        content: "I|";
+    }
+    1% {
+        content: "I'|";
+    }
+    2% {
+        content: "I'm|";
+    }
+    3% {
+        content: "I'm |";
+    }
+    4% {
+        content: "I'm S|";
+    }
+    5% {
+        content: "I'm Si|";
+    }
+    6% {
+        content: "I'm Sim|";
+    }
+    7% {
+        content: "I'm Simo|";
+    }
+    8% {
+        content: "I'm Simon|";
+    }
+    9% {
+        content: "I'm Simone|";
+    }
+    10% {
+        content: "I'm Simone |";
+    }
+    11% {
+        content: "I'm Simone O|";
+    }
+    12% {
+        content: "I'm Simone Ol|";
+    }
+    13% {
+        content: "I'm Simone Oli|";
+    }
+    14% {
+        content: "I'm Simone Oliv|";
+    }
+    15% {
+        content: "I'm Simone Olivi|";
+    }
+    16% {
+        content: "I'm Simone Olivia|";
+    }
+    17% {
+        content: "I'm Simone Olivia|";
+    }
+    18% {
+        content: "I'm Simone Olivi|";
+    }
+    19% {
+        content: "I'm Simone Oliv|";
+    }
+    20% {
+        content: "I'm Simone Oli|";
+    }
+    21% {
+        content: "I'm Simone Ol|";
+    }
+    22% {
+        content: "I'm Simone O|";
+    }
+    23% {
+        content: "I'm Simone |";
+    }
+    24% {
+        content: "I'm Simone|";
+    }
+    25% {
+        content: "I'm Simon|";
+    }
+    26% {
+        content: "I'm Simo|";
+    }
+    27% {
+        content: "I'm Sim|";
+    }
+    28% {
+        content: "I'm Si|";
+    }
+    29% {
+        content: "I'm S|";
+    }
+    30% {
+        content: "I'm |";
+    }
+    31% {
+        content: "I'm a|";
+    }
+    32% {
+        content: "I'm a |";
+    }
+    33% {
+        content: "I'm a F|";
+    }
+    34% {
+        content: "I'm a Fr|";
+    }
+    35% {
+        content: "I'm a Fre|";
+    }
+    36% {
+        content: "I'm a Free|";
+    }
+    37% {
+        content: "I'm a Freel|";
+    }
+    38% {
+        content: "I'm a Freela|";
+    }
+    39% {
+        content: "I'm a Freelan|";
+    }
+    40% {
+        content: "I'm a Freelanc|";
+    }
+    41% {
+        content: "I'm a Freelance|";
+    }
+    42% {
+        content: "I'm a Freelancer|";
+    }
+    43% {
+        content: "I'm a Freelancer.|";
+    }
+    44% {
+        content: "I'm a Freelancer.|";
+    }
+    45% {
+        content: "I'm a Freelancer|";
+    }
+    46% {
+        content: "I'm a Freelance|";
+    }
+    47% {
+        content: "I'm a Freelanc|";
+    }
+    48% {
+        content: "I'm a Freelan|";
+    }
+    49% {
+        content: "I'm a Freela|";
+    }
+    50% {
+        content: "I'm a Freel|";
+    }
+    51% {
+        content: "I'm a Free|";
+    }
+    52% {
+        content: "I'm a Fre|";
+    }
+    53% {
+        content: "I'm a Fr|";
+    }
+    54% {
+        content: "I'm a F|";
+    }
+    55% {
+        content: "I'm a |";
+    }
+    56% {
+        content: "I'm a P|";
+    }
+    57% {
+        content: "I'm a Ph|";
+    }
+    58% {
+        content: "I'm a Pho|";
+    }
+    59% {
+        content: "I'm a Phot|";
+    }
+    60% {
+        content: "I'm a Photo|";
+    }
+    61% {
+        content: "I'm a Photog|";
+    }
+    62% {
+        content: "I'm a Photogr|";
+    }
+    63% {
+        content: "I'm a Photogra|";
+    }
+    64% {
+        content: "I'm a Photograp|";
+    }
+    65% {
+        content: "I'm a Photograph|";
+    }
+    66% {
+        content: "I'm a Photographe|";
+    }
+    67% {
+        content: "I'm a Photographer|";
+    }
+    68% {
+        content: "I'm a Photographer.|";
+    }
+    69% {
+        content: "I'm a Photographer.|";
+    }
+    70% {
+        content: "I'm a Photographer|";
+    }
+    71% {
+        content: "I'm a Photographe|";
+    }
+    72% {
+        content: "I'm a Photograph|";
+    }
+    73% {
+        content: "I'm a Photograp|";
+    }
+    74% {
+        content: "I'm a Photogra|";
+    }
+    75% {
+        content: "I'm a Photogr|";
+    }
+    76% {
+        content: "I'm a Photog|";
+    }
+    77% {
+        content: "I'm a Photo|";
+    }
+    78% {
+        content: "I'm a Phot|";
+    }
+    79% {
+        content: "I'm a Pho|";
+    }
+    80% {
+        content: "I'm a Ph|";
+    }
+    81% {
+        content: "I'm a P|";
+    }
+    82% {
+        content: "I'm a |";
+    }
+    83% {
+        content: "I'm a D|";
+    }
+    84% {
+        content: "I'm a De|";
+    }
+    85% {
+        content: "I'm a Des|";
+    }
+    86% {
+        content: "I'm a Desi|";
+    }
+    87% {
+        content: "I'm a Desig|";
+    }
+    88% {
+        content: "I'm a Design|";
+    }
+    89% {
+        content: "I'm a Designe|";
+    }
+    90% {
+        content: "I'm a Designer|";
+    }
+    91% {
+        content: "I'm a Designer.|";
+    }
+    92% {
+        content: "I'm a Designer|";
+    }
+    93% {
+        content: "I'm a Designe|";
+    }
+    94% {
+        content: "I'm a Design|";
+    }
+    95% {
+        content: "I'm a Desig|";
+    }
+    96% {
+        content: "I'm a Desi|";
+    }
+    97% {
+        content: "I'm a Des|";
+    }
+    98% {
+        content: "I'm a De|";
+    }
+    99% {
+        content: "I'm a D|";
+    }
+    100% {
+        content: "I'm a |";
+    }
+}
+.home .fa-chevron-down
+{
+    color: white;
+    font-size: 1.25rem;
+    margin-top: 110px;
+    text-align: center;
+    animation: arrow 3s 1s infinite;
+}
+@keyframes arrow {
+    0% {
+        color: transparent;
+    }
+    2% {
+        
+        margin-top: 70px;
+    }
+}
+.home-content a
+{
+    background-color: transparent;
+    font-weight: 500;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #20c997;
+    border: #20c997 solid 2px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.home-content a:hover
+{
+    color: white;
+    background-color: #20c997;
+}
+.layer .settings .fa-cog
+{
+    background-color: #555;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 900;
+    position: fixed;
+    right: 0px;
+    top: 250px;
+    padding: 10px;
+}
+.about
+{
+    margin: 100px 0px;
+}
+.about .about-heading
+{
+    text-align: center;
+    position: relative;
+}
+.about-heading h2
+{
+    color: #dee3e4;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 8.25rem;
+    line-height: 1.3;
+    width: 100%;
+}
+.about-heading .p1
+{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #212529;
+    line-height: 1.5;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+.about-content:before
+{
+    
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: 390px;
+    right: 543px;
+    background-color: #20c997;
+}
+.about-content
+{
+    margin: 50px 100px;
+    position: relative;
+    display: flex;
+}
+.about-content .about-summary
+{
+    width: 67%;
+    border-right: transparent solid 75px;
+}
+.about-summary h2
+{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.about-summary h2 span
+{
+    color: #20c997;
+}
+.about-summary p
+{
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+.about-content .about-headlines
+{
+    width: 33%;
+}
+.about-headlines hr
+{
+    color: #eaeaea;
+}
+.about-headlines li
+{
+    color: #4c4d4d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    list-style-type: none;
+    padding: 12px 0px;
+}
+.about-headlines span
+{
+    font-weight: bold;
+}
+.about-headlines .email
+{
+    font-weight: normal;
+    color: #20c997;
+}
+.about-headlines ul
+{
+    margin-bottom: 30px;
+}
+.about-headlines a
+{
+    text-decoration: none;
+    color: white;
+    background-color: #20c997;
+    font-weight: 500;
+    padding: 15px 40px;
+    text-decoration: none;
+    border: #20c997 solid 2px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.about-headlines a:hover
+{
+    background-color: #21a37c;
+}
+.about-counts
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid transparent 80px;
+    border-top: none;
+    border-bottom: none;
+}
+.about-counts h4
+{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #6c757d;
+}
+.about-counts p
+{
+    line-height: 1.8;
+    color: #4c4d4d;
+    font-size: 1rem;
+    font-weight: 400;
+}
+::selection {
+    background: #20c997;
+    color: #fff;
+    text-shadow: none;
+}
+.what-i-do
+{
+    background-color: #f8f9fa;
+    padding: 100px 100px;
+}
+.what-i-do .heading
+{
+    text-align: center;
+    position: relative;
+}
+.what-i-do .heading h2
+{
+    color: #dee3e4;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 8.25rem;
+    line-height: 1.3;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.what-i-do .heading p
+{
+    position: relative;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #212529;
+    line-height: 1.5;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+.what-i-do .heading p:after
+{
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 543px;
+    background-color: #20c997;
+}
+.what-i-do .content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.what-i-do .content .item
+{
+    width: 50%;
+    margin-bottom: 40px;
+}
+.what-i-do .content .items
+{
+    display: flex;
+}
+
+.what-i-do .fas
+{
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    width: 70px;
+    height: 70px;
+    min-width: 55px;
+    min-height: 55px;
+    border-radius: 0.25rem;
+    font-size: 30px;
+    font-weight: 900;
+    color: #20c997;
+    background-color: white;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    padding: 20px 20px;
+    padding-right: 50px;
+
+}
+.what-i-do .content .items .content
+{
+    padding-left: 25px;
+}
+.what-i-do .content h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #252b33;
+    line-height: 1.2;
+}
+.what-i-do .content p
+{
+    line-height: 1.8;
+    color: #4c4d4d;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.resume
+{
+    padding: 100px 50px;
+}
+.resume .resume-heading
+{
+    text-align: center;
+    position: relative;
+}
+.resume .resume-heading h2
+{
+    color: #dee3e4;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 8.25rem;
+    line-height: 1.3;
+    width: 100%;
+}
+.resume .resume-heading p
+{
+    position: relative;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #212529;
+    line-height: 1.5;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+.resume .resume-heading p:after
+{
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 543px;
+    background-color: #20c997;
+}
+.resume .resume-content
+{
+    border: transparent solid 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.resume .resume-content h2
+{
+    font-size: 1.50rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #252b33;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+.resume .resume-content .experience h2
+{
+    margin-left: 20px;
+}
+.resume .resume-content .item
+{
+    color: #4c4d4d;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.resume .resume-content .edu-content
+{
+    margin-right: 20px;
+}
+.resume .resume-content .exp-content
+{
+    margin-left: 20px;
+}
+.resume .resume-content .item .p1
+{
+    background-color: #20c997;
+    font-size: 0.875rem;
+    font-weight: 400; 
+    padding: 0.35em 0.65em;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.resume .resume-content .item h3
+{
+    color: #252b33;
+    font-size: 1.3125rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+.resume .resume-content .item .p2
+{
+    color: #dc3545;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+.resume .skill
+{
+    border: transparent solid 50px;
+    border-top: none;
+    border-bottom: none;
+} 
+.resume .skill h2
+{
+    font-size: 1.50rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #252b33;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+.resume .skill .columns
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.resume .skill .fcolumn
+{
+    width: 48%;
+    margin-right: 2%;
+}
+.resume .skill .scolumn
+{
+    width: 48%;
+    margin-left: 2%;
+}
+.resume .skill span
+{
+    text-align: left;
+    float: right;
+}
+.resume .skill .columns p
+{
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212529;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
+}
+.resume .skill .progress-bar
+{
+    height: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+.resume .skill .progress
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    font-size: .75rem;
+    background-color: #20c997;
+}
+.resume .skill a
+{
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing:  border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    text-decoration: none;
+    color: #21a37c;
+    background-color: transparent;
+    border: #6c757d solid 2px;
+    border-radius: 50rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem 2.6rem;
+    transition: all 0.5s ease;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.resume .skill a:hover
+{
+    color: white;
+    background-color: #6c757d;
+}
+.mywork
+{
+    padding: 100px 50px;
+
+    background-color: #f8f9fa;
+}
+.mywork .work-heading
+{
+    text-align: center;
+    position: relative;
+}
+.mywork .work-heading h2
+{
+    color: #dee3e4;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 8.25rem;
+    line-height: 1.3;
+    width: 100%;
+}
+.mywork .work-heading p
+{
+    position: relative;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #212529;
+    line-height: 1.5;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+.mywork .work-heading p:after
+{
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 600px;
+    background-color: #20c997;
+}
+.mywork .my-list
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 40px 0px;
+}
+.mywork button
+{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4c4d4d;
+    padding: 0.6rem 1rem;
+}
+.mywork .all
+{
+    color: #21a37c;
+
+}
+.mywork .all:after
+{
+    content: "";
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    bottom: 0px;
+    right: 735px;
+    background-color: #20c997;
+}
+.mywork .work-container
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.mywork .work-container .work-col
+{
+    width: 33.333%;
+}
+.mywork img
+{
+    width: 100%;
+}
+.mywork .work-container .work-img
+{
+    padding: 10px;
+    transition: all 0.5s ;
+}
+.mywork .work-container .work-item
+{
+    position: relative;
+    overflow: hidden;
+}
+.mywork .work-container .layer
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.mywork .work-container .work-item:hover .layer
+{
+    opacity: 1;
+}
+.mywork .work-container .work-item:hover img
+{
+    transform: scale(1.1);
+    filter: blur(3px);
+}
+.mywork .work-container .layer h5
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.mywork .work-container .layer p
+{
+    color: #dee3e4;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.client
+{
+    padding: 100px 50px;
+}
+.client .client-heading
+{
+    text-align: center;
+    position: relative;
+}
+.client .client-heading h2
+{
+    color: #dee3e4;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 8.25rem;
+    line-height: 1.3;
+    width: 100%;
+}
+.client .client-heading p
+{
+    position: relative;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #212529;
+    line-height: 1.5;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+.client .client-heading p:after
+{
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 600px;
+    background-color: #20c997;
+}
+.client .client-row
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.client .client-column
+{
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    margin-right: 20px;
+}
+.client .client-intro
+{
+    background-color: #f8f9fa;
+    padding: 50px;
+    border: 2px transparent solid;
+    border-radius: 5px;
+}
+.client .client-item 
+{
+    display: flex;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+.client img
+{
+    border: transparent solid 5px;
+    border-radius: 50%;
+}
+.client .client-img-head
+{
+    padding-top: 10px;
+    margin-left: 1rem;
+}
+.client .client-img-head h4
+{
+    font-weight: 600;
+    color: #212529;
+}
+.client .client-img-head p
+{
+    font-weight: 500;
+    color: #6c757d;
+}
+.client .client-p
+{
+    margin: 1.5rem 0px;
+    color: #212529;
+    font-weight: 500;
+}
+.client .client-rating .fa-star
+{
+    font-size: 0.875rem;
+    font-weight: 900;
+    color: #ffc107;
+}
+.client .slider
+{
+    
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.client a
+{
+    color: #6c757d;
+    padding-right: 20px;
+}
+.client a:hover
+{
+    color: #20c997;
+}
+.contact
+{
+    padding: 100px 50px;
+
+    background-color: #f8f9fa;
+}
+.contact .contact-heading
+{
+    text-align: center;
+    position: relative;
+}
+.contact .contact-heading h2
+{
+    color: #dee3e4;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 8.25rem;
+    line-height: 1.3;
+    width: 100%;
+}
+.contact .contact-heading p
+{
+    position: relative;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #212529;
+    line-height: 1.5;
+    align-self: center;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+.contact .contact-heading p:after
+{
+    content: "";
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 600px;
+    background-color: #20c997;
+}
+.contact .contact-content
+{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.contact .contact-content .details
+{
+    width: 25%;
+}
+.contact .contact-content .in-data
+{
+    width: 75%;
+}
+.contact .contact-content h2
+{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #252b33;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.contact .details p
+{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: #4c4d4d;
+}
+.contact .details i
+{
+    font-weight: 900;
+    line-height: 1;
+    color: #20c997;
+    font-size: 1.125rem !important;
+    padding-right: 10px;
+}
+.contact .details li
+{
+    color: #4c4d4d;
+    margin-bottom: 1.25rem;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.contact .item1 
+{
+    width: 49%;
+    padding: 6px 12px;
+    height: 50px;
+    font-size: 1rem;
+    color: #ccc;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.contact .item2
+{
+    width: 49%;
+    padding: 6px 12px;
+    margin-left: 10px;
+    height: 50px;
+    font-size: 1rem;
+    color: #ccc;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.contact .in-data .item4
+{
+    width: 100%;
+    max-width: 100%;
+    padding: 6px 12px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    height: 160px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #4c4d4d;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.contact a
+{
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing:  border-box;
+    display: flex;
+    justify-content: center;
+    margin-left: 37%;
+    margin-right: 37%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #20c997;
+    border: #20c997 solid 2px;
+    border-radius: 50rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem 2.6rem;
+    transition: all 0.5s ease;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.contact a:hover
+{
+    background-color: #21a37c;
+}
+.social
+{
+    margin: 50px 50px;
+    color: #252b33;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.social p
+{
+    text-align: left;
+}
+.social p a
+{
+    text-decoration: none;
+    color: #20c997;
+}
+.social .social2
+{
+    display: flex;
+    text-align: end;
+}
+.social2 a
+{
+    text-decoration: none;
+    color: #252b33;
+    padding: 0px 20px;
+}
+.social2:hover
+{
+    color: #20c997;
+}
